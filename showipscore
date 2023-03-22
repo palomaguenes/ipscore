@@ -1,0 +1,10 @@
+showImpostorScore(){
+    if (score <= 40)
+        console.info("Few impostor feelings")
+    else if (score > 40 && score <= 60)
+        console.info("Moderate impostor feelings")
+    else if (score > 60 && score <= 80)
+        console.warn("Frequent impostor feelings")
+    else if (score > 80)
+        console.warn("Intense impostor feelings") 
+}
